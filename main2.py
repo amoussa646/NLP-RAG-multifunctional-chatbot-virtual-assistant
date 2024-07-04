@@ -3,10 +3,10 @@ nltk.download('punkt')
 
 from pinecone import Pinecone, ServerlessSpec
 
-pc = Pinecone(api_key='ee58c7fc-7e05-4c8d-9762-b7282d215591')
+pc = Pinecone(api_key='')
 
 from openai import OpenAI
-openai_api = OpenAI(api_key="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")
+openai_api = OpenAI(api_key="")
 
 # STORE DATA
 
@@ -309,7 +309,7 @@ index.describe_index_stats()
 ### FUNCTIONS
 
 from openai import OpenAI
-client_openai = OpenAI(api_key="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")
+client_openai = OpenAI(api_key="")
 
 llm_setting = "openai"
 # llm_setting = "anthropic"
